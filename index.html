@@ -1,0 +1,524 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfólio</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav---->
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>Início</span></a></li>
+										<li><a class="scroll" href="#about"><span>Sobre</span></a></li>
+										<li><a class="scroll" href="#portfolio"><span>Portfólio</span></a></li>
+										<li><a class="scroll" href="#blog"><span>Fotos</span></a></li>
+										<li><a class="scroll" href="#contact"><span>Contato</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!---start-click-drop-down-menu----->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!---//End-click-drop-down-menu----->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-center">
+				<img class="imagem-perfil" src="images/Perfil.JPG" alt=""/>
+			</div>
+			<div class="banner-center-texto">
+				<h1>PRISCILA MARQUES</h1>
+				<div class="border"></div>
+				<h2>"A MAIOR GLÓRIA NÃO É FICAR DE PÉ, MAS LEVANTAR-SE CADA VEZ QUE SE CAI" - CONFÚCIO</h2>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>SOBRE MIM</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		
+		<p>Olá, eu sou Priscila do Nascimento Marques, tenho 17 anos e sou natural de Batayporã (MS). Atualmente, 
+		estou cursando o sétimo semestre do curso Técnico em Informática no Instituto Federal de Mato Grosso do Sul. </p>
+
+		<p>Sou uma pessoa extremamente compromissada com meus afazeres, pontual para cumprir minhas obrigações, 
+		comunicativa, educada e de confiança. Apresento facilidade para adaptação perante as situações do cotidiano, 
+		agindo com ética e respeito. Disponho de bom desenvolvimento em equipe e procuro oportunidade no mercado 
+		de trabalho para que possa mostrar meu potencial.
+		No meu site é possível encontrar meus trabalhos, as tecnologias que tenho afinidade e algumas aplicações 
+		desenvolvidas.</p>
+		<p>Alguns dos meus hobbies são: leitura, fotografia, teatro e música. Para saber mais, navegue até o final do site. :)</p>
+		
+
+		<section>
+			<!-- Linkedin -->
+			<div class="rede" id="linkedin">
+				<a href="https://www.linkedin.com/in/priscila-marques-55b71a181/" target="_blank">
+					<img src="images/linkedin.svg" title="Linkedin" class="icone">
+				</a>
+			</div>
+
+			<!--Github -->
+			<div class="rede" id="github">
+				<a href="https://github.com/priih" target="_blank">
+					<img src="images/github.svg" title="Github" class="icone">
+				</a>
+			</div>
+
+			<!-- Codepen.io -->
+			<div class="rede" id="codepen">
+				<a href="https://codepen.io/priscila-marques/" target="_blank">
+					<img src="images/codepen.svg" title="Codepen" class="icone">
+				</a>
+			</div>
+
+			<!-- Facebook -->
+			<div class="rede" id="facebook">
+				<a href="https://www.facebook.com/priiiih.marques" target="_blank">
+					<img src="images/facebook.svg" title="Facebook" class="icone">
+				</a>
+			</div>
+		</section>
+
+	</div>
+
+		
+	</div>
+</div>
+<!--//about-->
+<div class="about-back"></div>
+<!--my skill-->
+<div class="my-skills text-center">
+	<div class="container">
+		<h3>MINHAS HABILIDADES</h3>
+		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center"> <!--40-->
+						<div class="circle" id="circles-1"></div>
+						<p>Node/React</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center"><!--50-->
+						<div class="circle" id="circles-2"></div>
+						<p>Fotografia</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center"><!--60-->
+						<div class="circle" id="circles-3"></div>
+						<p>EXPERIENCE DESIGN</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center"><!--70-->
+						<div class="circle" id="circles-4"></div>
+						<p>Html/Css/JavaScript</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center"><!--80-->
+						<div class="circle" id="circles-5"></div>
+						<p>Informática</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center"><!--90-->
+						<div class="circle" id="circles-6"></div>
+						<p>Comunicação</p>
+					</div>
+				
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
+									];
+								for (var i = 1; i <= 7; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = 30 + (i * 10);
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+		</div>
+	</div>	
+</div>
+<!--//my skill-->
+<div class="my-skill-back"></div>
+<!--education-->
+<div class="education text-center">
+	<div class="container">
+		<div class="edu-info">
+			<h3>EDUCAÇÃO</h3>
+		</div>
+		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+		<div class="edu-grids">
+			<div class="col-md-4 edu-grid">
+				<p>2006 - 2011</p><span>Fundamental</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>Educação Infantil e Ensino Fundamental</h3>
+					</div>
+					<div class="edu-grid-info">
+						<h5>E. M. Mundo da Criança</h5>
+						<h5>(Pré I - 5° ano) </h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2012 - 2015</p><span>Fundamental</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>Ensino Fundamental</h3>
+					</div>
+					<div class="edu-grid-info">
+						<h5>2012: E. M. João de Lima Paes</h5>
+						<h5>2013-2015: Escola Adventista de NA</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2016 - 2019</p><span>Atualmente</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>Instituto Federal do Mato Grosso do Sul</h3>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Ensino Médio Integrado ao curso Técnico em Informática</h5>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+</div>
+<!--//education-->
+<div class="strip-border"><p></p></div>
+<!--work-->
+<div class="work-experience text-center">
+	
+	<div class="container">
+		<div class="work-info">
+			<h3>Experiência Profissional</h3>
+		</div>
+		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
+		<div class="work-grids">
+			<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>2018</h3>
+					<div class="work-grid-info">
+						<h4>E. M. Mundo da Criança</h4>
+						<h5>Estagiária</h5>
+						<p>Trabalhei como estagiária na Escola Municipal Mundo da Criança, no qual cumpri a carga horária de 240 horas,
+						sendo 20 horas semanais. Durante esse tempo prestei auxílio para a escola, colocando em prática todo o aprendizado
+						como Técnica em Informática. Assim, foi possível o suporte técnico necessário.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>2018</h3>
+					<div class="work-grid-info">
+						<h4>IFMS</h4>
+						<h5>Monitora de Engenharia de Software</h5>
+						<p>Durante três meses tive a oportunidade de ser monitora pelo IFMS, assim pude desenvolver maior 
+					amadurecimento acadêmico com o aprimoramento de conhecimento, além de formação de características importantes como 
+					responsabilidade, compromisso, composição de caráter e dedicação para com o aprendizado dos alunos. 
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>2019</h3>
+					<div class="work-grid-info">
+						<h4>Escritório Contábil Méthodo</h4>
+						<h5>Assistente Fiscal</h5>
+						<p>No período de dois meses trabalhei como Assistente Fiscal em um escritório de contabilidade, 
+					exercendo funções como: apuração de impostos, lançamento das folhas de pagamentos, registro de documentos, 
+					emissão de notas fiscais de venda e classificação de despesas. Esse aprendizado foi de suprema importância
+					para o âmbito acadêmico.</p>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//work-->
+<div class="services-back"></div>
+
+<!--//services-->
+<!--portfolio-->
+<div class="gallery-section text-center" id="portfolio">
+	<div class="container">
+		<h3>PORTFÓLIO</h3>
+		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
+		<p>Segue abaixo alguns dos projetos que já desenvolvi</p>
+		<div class="gallery-grids">
+			<div class="top-gallery">
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p1.jpg" class="swipebox"><img src="images/p1.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p1.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p2.jpg" class="swipebox"><img src="images/p2.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p2.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p3.jpg" class="swipebox"><img src="images/p3.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p3.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p4.jpg" class="swipebox"><img src="images/p4.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p4.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p5.jpg" class="swipebox"><img src="images/p5.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p5.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p6.jpg" class="swipebox"><img src="images/p6.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p6.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="clearfix"> </div>
+			</div>
+				<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+		</div>
+	</div>
+</div>
+<!--//portfolio-->
+
+<!--blog-->
+<div class="blog" id="blog">
+	<div class="container">
+		<div class="blog-info text-center">
+			<h3>Fotos</h3>
+			<div class="strip text-center"><img src="images/blog.png" alt=" "/></div>
+		</div>
+		<div class="blog-grids">
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/sarana.JPG" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Organização SARANA 2017</a>
+						<div class="stripa"></div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/fotopaisagem.JPG" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Fotógrafa por amor</a>
+						<div class="stripa"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/ifencena.JPG" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Grupo de teatro: IFenceNA</a>
+						<div class="stripa"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/FLORES.JPG" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Amante da natureza.</a>
+						<div class="stripa"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/gaia.JPG" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Teatro "A revolta de Gaia": Semana do meio ambiente 2017</a>
+						<div class="stripa"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/musica.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Música e teatro</a>
+						<div class="stripa"></div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//blog-->
+<div class="contact-back"></div>
+<!--contact-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>CONTATO</h3>
+			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+		</div>
+		<div class="contact-grids">
+			<div class="col-md-5 contact-left">
+				<h3>Diga oi para mim</h3>
+				<div class="stripb"></div>
+				<ul>
+					<li>(67)999000202</li>
+					<li><a href="mailto:info@example.com">priscila.marques@novaandradina.org</a></li>
+				</ul>
+			</div>
+			
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//contact-->
+<div class="footer-top"></div>
+<!--resume-->
+<div class="resume text-center">
+	<div class="container">
+		<div class="strip text-center"><a href="#"><img src="images/down.png" alt=" "/></a></div>
+		<div class="down"><a href="http://lattes.cnpq.br/0122896734925310">Veja meu currículo</a></div>
+	</div>
+</div>
+<!--//resume-->
+
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<p>Copyright &copy; 2019 Priscila Marques</p>
+	</div>
+</div>
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
